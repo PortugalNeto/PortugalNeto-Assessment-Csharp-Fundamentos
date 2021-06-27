@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gerenciador.Aniversario.Entity\Gerenciador.Aniversario.Entity.csproj" />
+    <ProjectReference Include="..\Gerenciador.Aniversario.Repository\Gerenciador.Aniversario.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
