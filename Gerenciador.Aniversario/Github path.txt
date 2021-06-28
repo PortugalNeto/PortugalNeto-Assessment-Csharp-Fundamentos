@@ -1,0 +1,7 @@
+Prezado,
+
+Segue link abaixo do repositório no Github:
+
+https://github.com/PortugalNeto/PortugalNeto-Assessment-Csharp-Fundamentos.git
+
+Paulo Portugal.

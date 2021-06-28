@@ -16,8 +16,11 @@ namespace ConsoleGerenciador
             Console.WriteLine("=====================================================");
             Console.WriteLine("=========== Calendário de aniversariantes ===========");
             Console.WriteLine("=====================================================");
+            Console.WriteLine();
 
             var running = true;
+
+            MostrarAniversariantes();
 
             while (running)
             {
@@ -59,19 +62,34 @@ namespace ConsoleGerenciador
         private static void MostrarAniversariantes()
         {
             List<Amigo> amigos = Repository.GetAll();
+            List<Amigo> aniversariantes = new List<Amigo>();
+
             foreach (var amigo in amigos)
             {
                 if (amigo.Aniversario.Day == DateTime.Now.Day
                     && amigo.Aniversario.Month == DateTime.Now.Month)
                 {
+                    aniversariantes.Add(amigo);
+                }
+            }
+            foreach (var amigo in aniversariantes)
+            {
+                if (aniversariantes != null)
+                {
                     Console.WriteLine($"Hoje é aniversário de {amigo.Nome} {amigo.Sobrenome}!");
                     Console.WriteLine($"Não esqueça de dar os parabéns!!!");
                     Console.WriteLine();
                 }
-            }
-        }
 
-        private static void MenuDeOpcoes()
+                else
+                {
+                    Console.WriteLine("Não há aniversariantes hoje!");
+                }
+            }
+                
+        }
+        
+            private static void MenuDeOpcoes()
         {
             Console.WriteLine("Para administrar seu calendário, tecle:");
             Console.WriteLine("1 - Para adicionar um Amigo à lista");
