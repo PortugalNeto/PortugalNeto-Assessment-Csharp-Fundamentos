@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Gerenciador.Aniversario.Entity;
 using Gerenciador.Aniversario.Repository;
 using Newtonsoft.Json;
@@ -40,6 +41,9 @@ namespace ConsoleGerenciador
                     case "5":
                         ListarTodosAmigos();
                         break;
+                    case "6":
+                        MostrarAniversariantes();
+                        break;
                     case "s":
                         Console.WriteLine("Até Logo =D");
                         running = false;
@@ -52,6 +56,21 @@ namespace ConsoleGerenciador
             }
         }
 
+        private static void MostrarAniversariantes()
+        {
+            List<Amigo> amigos = Repository.GetAll();
+            foreach (var amigo in amigos)
+            {
+                if (amigo.Aniversario.Day == DateTime.Now.Day
+                    && amigo.Aniversario.Month == DateTime.Now.Month)
+                {
+                    Console.WriteLine($"Hoje é aniversário de {amigo.Nome} {amigo.Sobrenome}!");
+                    Console.WriteLine($"Não esqueça de dar os parabéns!!!");
+                    Console.WriteLine();
+                }
+            }
+        }
+
         private static void MenuDeOpcoes()
         {
             Console.WriteLine("Para administrar seu calendário, tecle:");
@@ -60,6 +79,7 @@ namespace ConsoleGerenciador
             Console.WriteLine("3 - Para excluir um amigo da lista");
             Console.WriteLine("4 - Para obter dados de um Amigo");
             Console.WriteLine("5 - Para exibir todos os Amigos");
+            Console.WriteLine("6 - Aniversariantes de HOJE!!");
             Console.WriteLine("s - Para sair");
             Console.WriteLine("");
         }

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Gerenciador.Aniversario.Entity/1.0.0": {
+        "runtime": {
+          "Gerenciador.Aniversario.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gerenciador.Aniversario.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

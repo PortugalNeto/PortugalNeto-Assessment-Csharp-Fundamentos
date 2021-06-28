@@ -631,11 +631,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pn_pg\\source\\repos\\Gerenciador.Aniversario\\ConsoleGerenciador\\ConsoleGerenciador.csproj",
+      "projectUniqueName": "D:\\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\\Documentos\\GitHub\\PortugalNeto-Assessment-Csharp-Fundamentos\\Gerenciador.Aniversario\\ConsoleGerenciador\\ConsoleGerenciador.csproj",
       "projectName": "ConsoleGerenciador",
-      "projectPath": "C:\\Users\\pn_pg\\source\\repos\\Gerenciador.Aniversario\\ConsoleGerenciador\\ConsoleGerenciador.csproj",
+      "projectPath": "D:\\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\\Documentos\\GitHub\\PortugalNeto-Assessment-Csharp-Fundamentos\\Gerenciador.Aniversario\\ConsoleGerenciador\\ConsoleGerenciador.csproj",
       "packagesPath": "C:\\Users\\pn_pg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pn_pg\\source\\repos\\Gerenciador.Aniversario\\ConsoleGerenciador\\obj\\",
+      "outputPath": "D:\\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\\Documentos\\GitHub\\PortugalNeto-Assessment-Csharp-Fundamentos\\Gerenciador.Aniversario\\ConsoleGerenciador\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -658,11 +658,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\pn_pg\\source\\repos\\Gerenciador.Aniversario\\Gerenciador.Aniversario.Entity\\Gerenciador.Aniversario.Entity.csproj": {
-              "projectPath": "C:\\Users\\pn_pg\\source\\repos\\Gerenciador.Aniversario\\Gerenciador.Aniversario.Entity\\Gerenciador.Aniversario.Entity.csproj"
+            "D:\\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\\Documentos\\GitHub\\PortugalNeto-Assessment-Csharp-Fundamentos\\Gerenciador.Aniversario\\Gerenciador.Aniversario.Entity\\Gerenciador.Aniversario.Entity.csproj": {
+              "projectPath": "D:\\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\\Documentos\\GitHub\\PortugalNeto-Assessment-Csharp-Fundamentos\\Gerenciador.Aniversario\\Gerenciador.Aniversario.Entity\\Gerenciador.Aniversario.Entity.csproj"
             },
-            "C:\\Users\\pn_pg\\source\\repos\\Gerenciador.Aniversario\\Gerenciador.Aniversario.Repository\\Gerenciador.Aniversario.Repository.csproj": {
-              "projectPath": "C:\\Users\\pn_pg\\source\\repos\\Gerenciador.Aniversario\\Gerenciador.Aniversario.Repository\\Gerenciador.Aniversario.Repository.csproj"
+            "D:\\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\\Documentos\\GitHub\\PortugalNeto-Assessment-Csharp-Fundamentos\\Gerenciador.Aniversario\\Gerenciador.Aniversario.Repository\\Gerenciador.Aniversario.Repository.csproj": {
+              "projectPath": "D:\\OneDrive - RADIX ENGENHARIA E DESENVOLVIMENTO DE SOFTWARE S A (ISV)\\Documentos\\GitHub\\PortugalNeto-Assessment-Csharp-Fundamentos\\Gerenciador.Aniversario\\Gerenciador.Aniversario.Repository\\Gerenciador.Aniversario.Repository.csproj"
             }
           }
         }
